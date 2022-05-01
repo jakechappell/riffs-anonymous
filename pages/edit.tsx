@@ -14,7 +14,11 @@ const Edit: NextPage = () => {
 
             <main className='min-h-screen py-0 justify-center text-center align-middle bg-matte-darkgrey'>
                 <Navbar/>
-                <h1 className='text-3xl text-white pt-5'>This is the edit page</h1>
+
+                {/* Edit modal */}
+                <div className='modal-body p-6 bg-matte-black mx-24 my-10 shadow-md rounded-md min-h-96 max-h-96 text-left'>
+
+                </div>
             </main>
             
             <Footer/>
