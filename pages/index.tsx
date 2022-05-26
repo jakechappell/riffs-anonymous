@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import SectionDivide from '../components/sectionDivide'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 
@@ -14,6 +15,18 @@ const Home: NextPage = () => {
 
       <main className='min-h-screen py-0 justify-center align-middle bg-matte-darkgrey'>
           <Navbar/>
+
+          <div id="about-section" className='py-8 text-center'>
+            <p className='text-matte-purple font-bold text-5xl'>Welcome to Riffs Anonymous!</p>
+          </div>
+
+          <SectionDivide/>
+          <p className='text-white text-center text-lg'>Featured</p>
+
+
+          <br/><br/>
+          <SectionDivide/>
+
       </main>
 
       <Footer/>

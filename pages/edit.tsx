@@ -16,7 +16,7 @@ const Edit: NextPage = () => {
                 <Navbar/>
 
                 {/* Edit modal */}
-                <div className='modal-body p-6 bg-matte-black mx-24 my-10 shadow-md rounded-md min-h-96 max-h-96 text-left'>
+                <div className='modal-body p-6 bg-matte-black mx-24 my-10 shadow-md rounded-lg min-h-96 max-h-96 text-left border-4 border-matte-grey'>
 
                 </div>
             </main>
